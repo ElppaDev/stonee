@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Jua', sans-serif;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+h1 {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.maindiv {
+    text-align: center;
+    padding-bottom: 50%;
+}
+
+.stoneimg {
+    width: 50%;
+}
+
+.stoneimg2 {
+    width: 80%;
+}
+
+.img_right {
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+.img_left {
+    margin-left: -100px;
+}
+
+.left_txt,
+.right_txt {
+    position: absolute;
+    font-size: 1.5em;
+    z-index: 999;
+    text-shadow:
+        /* first layer at 1px */
+        -1px -1px 0px #000,
+        0px -1px 0px #000,
+        1px -1px 0px #000,
+        -1px 0px 0px #000,
+        1px 0px 0px #000,
+        -1px 1px 0px #000,
+        0px 1px 0px #000,
+        1px 1px 0px #000,
+        /* second layer at 2px */
+        -2px -2px 0px #000,
+        -1px -2px 0px #000,
+        0px -2px 0px #000,
+        1px -2px 0px #000,
+        2px -2px 0px #000,
+        2px -1px 0px #000,
+        2px 0px 0px #000,
+        2px 1px 0px #000,
+        2px 2px 0px #000,
+        1px 2px 0px #000,
+        0px 2px 0px #000,
+        -1px 2px 0px #000,
+        -2px 2px 0px #000,
+        -2px 1px 0px #000,
+        -2px 0px 0px #000,
+        -2px -1px 0px #000;
+}
+
+.right_txt {
+    right: 0;
+    left: 45%;
+}
+
+.txt {
+    font-size: 1.5em;
+}
+
+.txt2 {
+    font-size: 1em;
+}
+
+.fadeinleft {
+    opacity: 0;
+    margin-left: -300px;
+}
+
+.fadein {
+    opacity: 0;
+}
+
+.jh1 {
+    font-size: 2.5em;
+}
+
+.kakaobtn {
+    color: #f9e000;
+    border: 1px solid #f9e000;
+    background-color: black;
+    font-size: 1.5em;
+    border-radius: 15px;
+    width: 300px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.kakaobtn:hover,
+.kakaobtn:focus {
+    color: black;
+    background-color: #f9e000;
+    outline: none;
+}
+
+.iosbtn {
+    color: #0d6efd;
+    border: 1px solid#0d6efd;
+    background-color: black;
+    font-size: 1.5em;
+    border-radius: 15px;
+    width: 300px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.iosbtn:hover,
+.iosbtn:focus {
+    color: white;
+    background-color: #0d6efd;
+    outline: none;
+}
+
+.adbtn {
+    color: #3ddc84;
+    border: 1px solid#3ddc84;
+    background-color: black;
+    font-size: 1.5em;
+    border-radius: 15px;
+    width: 300px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.adbtn:hover,
+.adtn:focus {
+    color: black;
+    background-color: #3ddc84;
+    outline: none;
+}
+
+.wdbtn {
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    font-size: 1.5em;
+    border-radius: 15px;
+    width: 300px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.wdbtn:hover,
+.wdtn:focus {
+    color: black;
+    background-color: white;
+    outline: none;
+}
