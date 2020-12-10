@@ -97,7 +97,7 @@ h1 {
 
 .kakaobtn {
     color: #f9e000;
-    border: 1px solid #f9e000;
+    border: 1px solid rgb(249, 224, 0);
     background-color: black;
     font-size: 1.5em;
     border-radius: 15px;
@@ -111,6 +111,9 @@ h1 {
     color: black;
     background-color: #f9e000;
     outline: none;
+    box-shadow: 0 4px 16px rgba(249, 224, 0, 0.3);
+    cursor: pointer;
+    transition: 0.1s;
 }
 
 .iosbtn {
@@ -127,8 +130,11 @@ h1 {
 .iosbtn:hover,
 .iosbtn:focus {
     color: white;
-    background-color: #0d6efd;
+    background-color: rgb(13, 110, 253);
     outline: none;
+    box-shadow: 0 4px 16px rgba(13, 110, 253, 0.3);
+    cursor: pointer;
+    transition: 0.1s;
 }
 
 .adbtn {
@@ -145,8 +151,11 @@ h1 {
 .adbtn:hover,
 .adtn:focus {
     color: black;
-    background-color: #3ddc84;
+    background-color: rgb(61, 220, 132);
     outline: none;
+    box-shadow: 0 4px 16px rgba(61, 220, 132, 0.3);
+    cursor: pointer;
+    transition: 0.1s;
 }
 
 .wdbtn {
@@ -165,4 +174,7 @@ h1 {
     color: black;
     background-color: white;
     outline: none;
+    box-shadow: 0 4px 16px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: 0.1s;
 }
