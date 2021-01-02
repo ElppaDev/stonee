@@ -10,5 +10,7 @@ function openinstall(key){
         break;
         case 5 : location.href = "https://www.shiqiee.com/app4.html";
         break;
+        case 6 : location.href = "https://cafe.naver.com/purplekm3jw";
+        break;
     }
 }
