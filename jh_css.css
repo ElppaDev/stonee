@@ -1,9 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@font-face {
+    font-family: 'TmoneyRoundWindRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'TmoneyRoundWindRegular';
+}
 
 html {
     background-color: black;
     color: white;
-    font-family: 'Jua', sans-serif;
     overflow: hidden;
     overflow-y: auto;
 }
